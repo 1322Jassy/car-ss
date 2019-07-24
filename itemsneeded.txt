@@ -1,0 +1,1 @@
+My project will have a splitbar horizontal draggable

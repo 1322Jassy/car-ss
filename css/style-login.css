@@ -1,0 +1,63 @@
+@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-image: url(login-car.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-box
+{
+    width:30%;
+    position:absolute;
+    top:50%;
+    left:50%; 
+    transform: translate(-50%,-50%);
+    color:white;
+}
+.login-box 
+{
+
+    font-size: 100px;
+    color:white;
+    margin-bottom:50px;
+    padding:20px 0;
+    width:30%;
+    float:left;
+}
+h1 {
+    font-size: 80px;
+    border-bottom: 10px solid #4caf50;
+    color: white;
+    margin-bottom: 50px;
+    padding: 20px 0;
+    width: 100%;
+}
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding-left: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #4caf50;
+}
+.textbox i
+{
+    width:40px;
+    float:left;
+    text-align:center;
+
+}
+.textbox input
+{
+    border:none;
+    outline:none;
+    background:none;
+    color:white;
+    font-size:40px;
+    width:80%;
+    float:left;
+    margin:0 10px;
+}

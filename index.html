@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- First Name, Last Name
+     Description:
+     Date:                  -->
+    <title>XHTML Template</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+
+    <script src="./java/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./java/script.js"></script>
+  
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="topnav">
+            <a class="active" href="#home">Bugatti</a>
+            <a href="#Audi">Audi</a>
+            <a href="#Ferrari">Ferrari</a>
+            <a href="#Porshe">Porshe</a>
+            <a href="#Rolls Royas">Rolls Royas</a>
+        </div>
+
+        <div class="login-nav">
+            <a class="active" href="./login.html">Login</a>
+        </div>
+
+        <img class="home-img" src="./img/home.jpg" alt="Home" />
+
+        <p class="para">
+            Welcome to the world of cars.<br />
+            Here you can explore the most fascinating and fanky beauties of mankind.
+        </p>
+
+        <div class="contentDiv">
+            <img href="#Audi" pointer="hand" class="arrow" src="./img/arrow.png" />
+        </div>
+        <div id="Audi" class="main">
+
+
+            <img class="home-img" src="./img/audi.jpg" alt="Home" />
+
+
+        </div>
+        <!--whole page nav bar-->
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <span id="leftcorner" style="font-size:60px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+
+        <div class="img-comp-container">
+            <div class="img-comp-img">
+                <img src="./img/audi.jpg"  style="width:100%" height="1200" />
+            </div>
+            <div class="img-comp-img img-comp-overlay">
+                <img src="./img/login-car.jpg" style="width:100%" height="1200" />
+            </div>
+        </div>
+
+
+    </div>
+    <script>
+        /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
+        initComparisons();
+    </script>
+    </body>
+</html>
